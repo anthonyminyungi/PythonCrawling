@@ -3,7 +3,7 @@ import json
 
 RANK = 100
 
-con = pymysql.connect(host="localhost", user="root", password="akejvkej123", db="first", charset="utf8")
+con = pymysql.connect(host="localhost", user="root", password="password", db="dbname", charset="utf8")
 cur = con.cursor()
 
 with open("/var/www/html/json/melon_top_100.json", encoding="utf-8") as json_file:
